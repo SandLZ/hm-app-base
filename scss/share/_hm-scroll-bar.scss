@@ -1,0 +1,110 @@
+/*
+  Scroll-Bar
+ */
+.scroll-view.scroll-x {
+  overflow-x: hidden;
+}
+.hm-scroll-bar-wrapper {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 0 11px;
+  box-sizing: border-box;
+  background: transparent;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  z-index: 1000;
+}
+
+.hm-scroll-bar-nav {
+  //overflow-x: hidden;
+  //overflow-y: hidden;
+  //-webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  position: relative;
+  font-size: 0;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.js .hm-scroll-bar-nav {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.js .hm-scroll-bar-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.hm-scroll-bar-nav-contents {
+  position: relative;
+  float: left;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.hm-scroll-bar-nav-contents-no-transition {
+  transition: none;
+  -webkit-transition: none;
+}
+
+.hm-scroll-bar-nav-link {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 14px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  min-height: 44px;
+  padding: 0 25px;
+}
+
+.hm-scroll-bar-nav-link + .hm-scroll-bar-nav-link {
+  //border-left-color: #eee;
+}
+
+.hm-scroll-bar-nav-link[aria-selected="true"] {
+  color: #4a4a4a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hm-scroll-bar-nav-link[aria-selected="false"] {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.hm-scroll-bar-nav-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 100px;
+  background-color: transparent;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, background-color .2s ease-in-out;
+  transition: transform .2s ease-in-out, background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+[data-overflowing="both"] ~ .pn-Advancer_Left, [data-overflowing="left"] ~ .pn-Advancer_Left {
+  opacity: 1;
+}
+
+.pn-Advancer_Right {
+  right: 0;
+}
+
+[data-overflowing="both"] ~ .pn-Advancer_Right, [data-overflowing="right"] ~ .pn-Advancer_Right {
+  opacity: 1;
+}

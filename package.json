@@ -1,0 +1,70 @@
+{
+  "name": "hm-app-base",
+  "version": "0.0.1",
+  "description": "hm-app-base: An Ionic project",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-extend": "^0.2.0",
+    "gulp-group-files": "^2.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ng-annotate": "^2.1.0",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-param": "^1.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev": "^8.1.1",
+    "gulp-rev-collector": "^1.2.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-strip-debug": "^2.0.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "merge-stream": "^1.0.1",
+    "run-sequence": "^2.2.1",
+    "shelljs": "^0.3.0",
+    "string-format": "^0.5.0"
+  },
+  "cordovaPlugins": [
+    {
+      "locator": "/Users/zliu/Documents/Work/WebSpace/AppProduct/projects/handsmap/cordova-plugins/cordova-plugin-crosswalk-webview",
+      "id": "cordova-plugin-crosswalk-webview"
+    },
+    {
+      "locator": "/Users/zliu/Documents/Work/WebSpace/AppProduct/projects/handsmap/cordova-plugins/cordova-plugin-file",
+      "id": "cordova-plugin-file"
+    },
+    {
+      "locator": "/Users/zliu/Documents/Work/WebSpace/AppProduct/projects/handsmap/cordova-plugins/cordova-plugin-file-transfer",
+      "id": "cordova-plugin-file-transfer"
+    },
+    {
+      "locator": "https://github.com/SandLZ/DatePicker/"
+    },
+    {
+      "locator": "/Users/zliu/Documents/Work/WebSpace/AppProduct/projects/handsmap/cordova-plugins/com.synconset.imagepicker",
+      "id": "com.synconset.imagepicker"
+    },
+    {
+      "locator": "/Users/zliu/Documents/Work/WebSpace/AppProduct/projects/handsmap/cordova-plugins/cordova-plugin-camera",
+      "id": "cordova-plugin-camera"
+    },
+    {
+      "locator": "/Users/zliu/Documents/Work/WebSpace/AppProduct/projects/handsmap/cordova-plugins/cordova-plugin-media-capture",
+      "id": "cordova-plugin-media-capture"
+    },
+    {
+      "locator": "https://github.com/SandLZ/ImageSave",
+      "id": "cordova-plugin-imagesave"
+    },
+    "cordova-plugin-geolocation"
+  ],
+  "cordovaPlatforms": [
+    "android",
+    "ios"
+  ]
+}

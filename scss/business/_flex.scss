@@ -1,0 +1,20 @@
+@import "../base/hm-variables";
+@import "../base/hm-base";
+
+.flex-container {
+  @extend .hm-flex-v-center-h-around;
+
+  .flex-item {
+    background: $hm-color-gray;
+    @extend .hm-flex-vh-center;
+    border-radius: 4px;
+    margin: 2px 4px 6px 4px;
+    width: 100%;
+    .item-name {
+      padding: 4px 10px;
+      color: $hm-color-white;
+    }
+  }
+}
+
+

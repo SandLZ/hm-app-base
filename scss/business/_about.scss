@@ -1,0 +1,21 @@
+.about-version {
+  text-align: center;
+  margin-top: 50px;
+  color: #888888;
+}
+
+.about-bottom {
+  position: absolute;
+  padding: 16px;
+  right: 0;
+  left: 0;
+  bottom: 49px;
+  width: 100%;
+  @extend .hm-flex-vh-center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  background: #f8f8f8;
+  font-size: 14px;color:#888888;
+}
+
+

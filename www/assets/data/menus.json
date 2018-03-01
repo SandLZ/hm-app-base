@@ -1,0 +1,452 @@
+{
+  "data": [
+    {
+      "id": "type_form",
+      "typeName": "表单",
+      "icon": "img/icon/form.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "button",
+          "name": "按钮",
+          "icon": "img/icon/button.svg",
+          "href": "/button",
+          "stateId": 1,
+          "stateName": "待完善"
+        },
+        {
+          "id": "input",
+          "name": "表单输入",
+          "icon": "img/icon/input.svg",
+          "href": "/input",
+          "stateId": 2,
+          "stateName": "未完成"
+        },
+        {
+          "id": "list",
+          "name": "列表",
+          "icon": "img/icon/list.svg",
+          "href": "/list",
+          "stateId": 2,
+          "stateName": "待完善"
+        },
+        {
+          "id": "slider",
+          "name": "滑块",
+          "icon": "img/icon/sliders.svg",
+          "href": "/slider",
+          "stateId": 1,
+          "stateName": "待完善"
+        }
+      ]
+    },
+    {
+      "id": "type_layout",
+      "typeName": "布局",
+      "icon": "img/icon/layout.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "flex",
+          "name": "Flex",
+          "icon": "img/icon/flex.svg",
+          "href": "/flex",
+          "stateId": 3,
+          "stateName": "已完成"
+        }
+      ]
+    },
+    {
+      "id": "type_base",
+      "typeName": "基础组件",
+      "icon": "img/icon/component.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "search",
+          "name": "搜索",
+          "icon": "img/icon/search.svg",
+          "href": "/search",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "grid",
+          "name": "网格",
+          "icon": "img/icon/grid.svg",
+          "href": "/grid",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "refresh",
+          "name": "上/下拉",
+          "icon": "img/icon/pull-up.svg",
+          "href": "/pull",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "gallery",
+          "name": "相册",
+          "icon": "img/icon/gallery.svg",
+          "href": "/gallery",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "banner",
+          "name": "横幅",
+          "icon": "img/icon/banner.svg",
+          "href": "/banner",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "progress",
+          "name": "进度",
+          "icon": "img/icon/progress.svg",
+          "href": "/progress",
+          "stateId": 1,
+          "stateName": "待完善"
+        },
+        {
+          "id": "footer",
+          "name": "Footer",
+          "icon": "img/icon/footer.svg",
+          "href": "/footer",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "scroll_item",
+          "name": "滚动",
+          "icon": "img/icon/scroll-view.svg",
+          "href": "/scroll",
+          "stateId": 3,
+          "stateName": "已完成"
+        }
+      ]
+    },
+    {
+      "id": "type_feedback",
+      "typeName": "操作反馈",
+      "icon": "img/icon/feedback.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "action_sheet",
+          "name": "ActionSheet",
+          "icon": "img/icon/sheet.svg",
+          "href": "/action-sheet",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "dialog",
+          "name": "对话框",
+          "icon": "img/icon/dialog.svg",
+          "href": "/dialog",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "toast",
+          "name": "提示",
+          "icon": "img/icon/tips.svg",
+          "href": "/toast",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "loading",
+          "name": "加载框",
+          "icon": "img/icon/loading.svg",
+          "href": "/loading",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "picker",
+          "name": "选择器",
+          "icon": "img/icon/picker.svg",
+          "href": "/picker",
+          "stateId": 2,
+          "stateName": "未完成"
+        }
+      ]
+    },
+    {
+      "id": "type_navi",
+      "typeName": "导航相关",
+      "icon": "img/icon/navi.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "navibar",
+          "name": "Navbar",
+          "icon": "img/icon/navigation.svg",
+          "href": "/navibar",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "tabbar",
+          "name": "Tabbar(参照首页)",
+          "icon": "img/icon/tabbar.svg",
+          "href": "",
+          "stateId": 3,
+          "stateName": "已完成"
+        }
+      ]
+    },
+    {
+      "id": "type_service",
+      "typeName": "服务",
+      "icon": "img/icon/service.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "position",
+          "name": "位置",
+          "icon": "img/icon/position.svg",
+          "href": "/location",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "music",
+          "name": "音频播放器",
+          "icon": "img/icon/player.svg",
+          "href": "/audio",
+          "stateId": 3,
+          "stateName": "已完成"
+        }
+      ]
+    },
+    {
+      "id": "type_plugin",
+      "typeName": "插件（Cordova）",
+      "icon": "img/icon/plugin.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "hot-code-push",
+          "name": "热更新",
+          "icon": "img/icon/hot-code-push.svg",
+          "href": "/hot-code-push",
+          "stateId": 2,
+          "stateName": "未完成"
+        },
+        {
+          "id": "datepicker",
+          "name": "日期选择器",
+          "icon": "img/icon/datepicker.svg",
+          "href": "/date-picker",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "uploader",
+          "name": "文件上传",
+          "icon": "img/icon/upload.svg",
+          "href": "/uploader",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "save_album",
+          "name": "保存照片",
+          "icon": "img/icon/save.svg",
+          "href": "/save-album",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "video",
+          "name": "流媒体",
+          "icon": "img/icon/video.svg",
+          "href": "",
+          "stateId": 2,
+          "stateName": "未完成"
+        },
+        {
+          "id": "notify",
+          "name": "JPush",
+          "icon": "img/icon/notify.svg",
+          "href": "",
+          "stateId": 2,
+          "stateName": "未完成"
+        }
+      ]
+    },
+    {
+      "id": "type_wx",
+      "typeName": "微信",
+      "icon": "img/icon/wx.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "sdk_introduce",
+          "name": "说明",
+          "icon": "img/icon/introduce.svg",
+          "href": "/wx-introduce",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "sdk_config",
+          "name": "SDK配置",
+          "icon": "img/icon/config.svg",
+          "href": "/wx-config",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "wx_scan",
+          "name": "扫一扫",
+          "icon": "img/icon/scan.svg",
+          "href": "/wx-scan",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "wx_location",
+          "name": "定位",
+          "icon": "img/icon/position.svg",
+          "href": "/wx-location",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "wx_upload",
+          "name": "照片上传",
+          "icon": "img/icon/upload.svg",
+          "href": "/wx-upload",
+          "stateId": 3,
+          "stateName": "已完成"
+        }
+      ]
+    },
+    {
+      "id": "type_map",
+      "typeName": "地图专题",
+      "icon": "img/icon/map-topic.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "sdk_introduce",
+          "name": "说明",
+          "icon": "img/icon/introduce.svg",
+          "href": "/wx-introduce",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "sdk_config",
+          "name": "SDK配置",
+          "icon": "img/icon/config.svg",
+          "href": "/wx-config",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "wx_scan",
+          "name": "扫一扫",
+          "icon": "img/icon/scan.svg",
+          "href": "/wx-scan",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "wx_location",
+          "name": "定位",
+          "icon": "img/icon/position.svg",
+          "href": "/wx-location",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "wx_upload",
+          "name": "照片上传",
+          "icon": "img/icon/upload.svg",
+          "href": "/wx-upload",
+          "stateId": 3,
+          "stateName": "已完成"
+        }
+      ]
+    },
+    {
+      "id": "type_msa",
+      "typeName": "移动统计分析",
+      "icon": "img/icon/msa.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "msa",
+          "name": "说明",
+          "icon": "img/icon/introduce.svg",
+          "href": "/msa",
+          "stateId": 3,
+          "stateName": "已完成"
+        },
+        {
+          "id": "h5_msa",
+          "name": "H5",
+          "icon": "img/icon/h5.svg",
+          "href": "/h5-msa",
+          "stateId": 2,
+          "stateName": "未完成"
+        },
+        {
+          "id": "HyBird",
+          "name": "HyBird",
+          "icon": "img/icon/app.svg",
+          "href": "/hybird-msa",
+          "stateId": 2,
+          "stateName": "未完成"
+        },
+        {
+          "id": "android_msa",
+          "name": "Android",
+          "icon": "img/icon/android.svg",
+          "href": "/android-msa",
+          "stateId": 2,
+          "stateName": "未完成"
+        },
+        {
+          "id": "ios_msa",
+          "name": "IOS",
+          "icon": "img/icon/apple.svg",
+          "href": "/ios-msa",
+          "stateId": 2,
+          "stateName": "未完成"
+        }
+      ]
+    },
+    {
+      "id": "type_dev",
+      "typeName": "开发相关",
+      "icon": "img/icon/msa.svg",
+      "open": false,
+      "data": [
+        {
+          "id": "gulp",
+          "name": "Gulp",
+          "icon": "img/icon/gulp.svg",
+          "href": "/gulp",
+          "stateId": 2,
+          "stateName": "未完成"
+        },
+        {
+          "id": "sass",
+          "name": "Sass",
+          "icon": "img/icon/sass.svg",
+          "href": "/sass",
+          "stateId": 2,
+          "stateName": "未完成"
+        }
+      ]
+    }
+  ]
+}

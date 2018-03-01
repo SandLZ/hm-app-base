@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width">
+
+    <title></title>
+
+    <script src="cordova.js"></script>
+
+    <link href="lib/swiper/dist/css/swiper.min.css" rel="stylesheet">
+    <link href="css/hm.base.app.min.css?v=4569624bfc" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!--这个是自动生成的 HTML 请不要修改，如果要修改，请到 www/html/index.html 中修改-->
+
+    <!-- ionic/angularjs js -->
+
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="lib/angular-http-auth/dist/http-auth-interceptor.min.js"></script>
+    <script src="lib/swiper/dist/js/swiper.min.js"></script>
+    <script src="lib/howler/howler.min.js"></script>
+    <script src="lib/angularjs-slider/dist/rzslider.min.js"></script>
+    <script src="lib/imgcache.js/lib/imgcache.js"></script>
+    <script src="lib/ionic-img-cache/ionic-img-cache.min.js"></script>
+    <script src="lib/angular-pinch-zoom/dist/ng-pinch-zoom.min.js"></script>
+    <script src="lib/progressbar.js/dist/progressbar.min.js"></script>
+    <script src="lib/angular-progress-arc/angular-progress-arc.js"></script>
+    <script src="lib/progress/progress.directive.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="https://dev.handsmap.cn/hmgeolocation/hm-h5-geolocation-iframe.js"></script>
+    <script src="https://webapi.amap.com/maps?v=1.3&key=c61a1249af33eb2b6e51a20738cec372&plugin=AMap.MarkerClusterer,AMap.Heatmap"></script>
+    <script src="//webapi.amap.com/ui/1.0/main.js"></script>
+    <script src="lib/hmamap/HMAMap.min.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js?v=ef1aba7cf8"></script>
+    <script src="js/app.routes.js?v=75aef986fd"></script>
+    <script src="js/business/about/about.ctrl.js?v=fb561dba71"></script>
+    <script src="js/business/component/banner.ctrl.js?v=47a5eb9798"></script>
+    <script src="js/business/component/gallery.ctrl.js?v=1518d9e848"></script>
+    <script src="js/business/component/grid.ctrl.js?v=3d68a4bfaf"></script>
+    <script src="js/business/component/progress.ctrl.js?v=c8cedecc93"></script>
+    <script src="js/business/component/pull.ctrl.js?v=1e66a69380"></script>
+    <script src="js/business/component/scroll.ctrl.js?v=357232a83c"></script>
+    <script src="js/business/component/search.ctrl.js?v=21b3206c4a"></script>
+    <script src="js/business/feedback/action-sheet.ctrl.js?v=3665220d56"></script>
+    <script src="js/business/feedback/dialog.ctrl.js?v=01f58edc3c"></script>
+    <script src="js/business/feedback/loading.ctrl.js?v=59e560576b"></script>
+    <script src="js/business/feedback/picker.ctrl.js?v=32ec5835f7"></script>
+    <script src="js/business/feedback/toast.ctrl.js?v=7950cfa20a"></script>
+    <script src="js/business/form/button.ctrl.js?v=ec7b0a203c"></script>
+    <script src="js/business/form/input.ctrl.js?v=5bff8831a1"></script>
+    <script src="js/business/form/list.ctrl.js?v=6174edda75"></script>
+    <script src="js/business/form/slider.ctrl.js?v=19b07384b7"></script>
+    <script src="js/business/home/home.ctrl.js?v=050ef03611"></script>
+    <script src="js/business/msa/android/android-msa.ctrl.js?v=472daad144"></script>
+    <script src="js/business/msa/h5/h5-msa.ctrl.js?v=c1ba751f0a"></script>
+    <script src="js/business/msa/hybird/hybird-msa.ctrl.js?v=ed72e144ce"></script>
+    <script src="js/business/msa/ios/ios-msa.ctrl.js?v=0479676b69"></script>
+    <script src="js/business/navi/navi.ctrl.js?v=17bec9c658"></script>
+    <script src="js/business/plugins/date-picker/date-picker.ctrl.js?v=b2f4078344"></script>
+    <script src="js/business/plugins/hot-code-push/hot-code-push.ctrl.js?v=4923feb554"></script>
+    <script src="js/business/plugins/save-album/save-album.ctrl.js?v=2f14b0aee4"></script>
+    <script src="js/business/plugins/uploader/uploader.ctrl.js?v=43af1f4ff1"></script>
+    <script src="js/business/service/audio.ctrl.js?v=42ef0083a6"></script>
+    <script src="js/business/service/location.ctrl.js?v=c239e74583"></script>
+    <script src="js/business/wx/wx.ctrl.js?v=a8e4d023fa"></script>
+    <script src="js/business/wx/wx.ser.js?v=512f2548dd"></script>
+    <script src="js/config.js?v=75947980b4"></script>
+    <script src="js/core/auth/http-auth.js?v=5bed978b5f"></script>
+    <script src="js/core/location/location.ser.js?v=3270617b3e"></script>
+    <script src="js/core/log/log.ser.js?v=c9afa5ae43"></script>
+    <script src="js/share/common/audio-player.ser.js?v=12db41d1ed"></script>
+    <script src="js/share/common/dialog.ser.js?v=f3707def4c"></script>
+    <script src="js/share/common/file-helper.ser.js?v=f1937d19df"></script>
+    <script src="js/share/common/storage.ser.js?v=0de28229e2"></script>
+    <script src="js/share/common/update-helper.ser.js?v=65783e7a95"></script>
+    <script src="js/share/common/uploader-helper.ser.js?v=1e32e10377"></script>
+    <script src="js/share/common/week.ser.js?v=a172077201"></script>
+    <script src="js/share/directive/audio/audio.directive.js?v=fc9b0260a5"></script>
+    <script src="js/share/directive/func-bar/hm-func-bar.js?v=ffec15e42d"></script>
+    <script src="js/share/directive/gallery/gallery.directive.js?v=521449d142"></script>
+    <script src="js/share/directive/grid/grid.directive.js?v=d06eec2408"></script>
+    <script src="js/share/directive/item/item.directive.js?v=22ef9ac5a4"></script>
+    <script src="js/share/directive/list/list.directive.js?v=e7612640d9"></script>
+    <script src="js/share/directive/scroll-bar/scroll-bar.directive.js?v=737f735a22"></script>
+    <script src="js/share/directive/scroll-item/scroll-item.directive.js?v=87ba7f0c9d"></script>
+    <script src="js/share/directive/search/search.directive.js?v=94186f3d4a"></script>
+    <script src="js/share/directive/star/star.directive.js?v=ce844e896d"></script>
+    <script src="js/share/directive/swiper/swiper.directive.js?v=21b441bee2"></script>
+    <script src="js/share/utils/file-util.ser.js?v=65d84ca042"></script>
+    <script src="js/share/utils/public-utils.js?v=c44977bcd8"></script>
+    <script src="lib/tencent/h5_msa.js"></script>
+
+  </head>
+  <body ng-app="HMAppBase">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <!--<ion-nav-bar class="bar-royal" >-->
+    <!--</ion-nav-bar>-->
+
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>

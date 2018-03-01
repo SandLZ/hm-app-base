@@ -1,0 +1,31 @@
+<ion-view title="说明">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+
+    <div class="page-header">
+      <h1 class="page-title">JSSDK说明</h1>
+      <p class="page-desc">配置要求，配置说明</p>
+    </div>
+
+    <article class="page-article" ng-repeat="article in wxIntroCtrl.data">
+      <h1>{{article.typeName}}</h1>
+      <section>
+        <div ng-repeat="content in article.typeContent">
+          <h2>{{content.secondName}}</h2>
+          <section>
+            <h3 ng-bind-html="content.secondContent"></h3>
+          </section>
+        </div>
+      </section>
+    </article>
+
+  </ion-content>
+</ion-view>

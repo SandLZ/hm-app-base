@@ -1,0 +1,47 @@
+@import "../base/hm-variables";
+.hm-search {
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+  border: 1px solid #979797;
+  .hm-icon-search {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 24px;
+  }
+  .hm-search-input {
+    text-align: left;
+    width: calc(100% - 80px);
+    width: -webkit-calc(100% - 80px);
+    width: -moz-calc(100% - 80px);
+    margin: 0 20px 0 39px;
+    height: 32px;
+    border: 0;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0px;
+    background: transparent;
+  }
+  .hm-search-input:focus {
+    border: none;
+    outline: none;
+  }
+  .hm-search-del {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    width: 15px !important;
+    height: 15px !important;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.hm-search-form {
+  position: relative;
+  height: 100%;
+}
+

@@ -1,0 +1,52 @@
+@import "../base/hm-base";
+.hm-bubble {
+  position: relative;
+  .hm-list {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    .hm-item-center {
+      @extend .hm-flex-vh-center;
+      background: transparent;
+      border: none;
+    }
+    .hm-item-center-sel {
+      background: #18c763;
+    }
+  }
+
+}
+
+.hm-bubble-top-right {
+  @extend .hm-bubble;
+  float: right;
+  margin-right: 10px;
+}
+
+.hm-bubble:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom-color: white;
+  border-top: 0;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.hm-bubble-top-right:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 70%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: white;
+  border-top: 0;
+  margin-left: -10px;
+  margin-top: -10px;
+}

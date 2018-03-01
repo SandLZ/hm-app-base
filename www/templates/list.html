@@ -1,0 +1,57 @@
+<ion-view title="List">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content>
+
+    <div class="page-header">
+      <h1 class="page-title">列表</h1>
+      <p class="page-desc">
+        常用列表样式
+      </p>
+    </div>
+
+    <div class="page-cell-title">左/右侧icon</div>
+    <div class="list" style="padding: 16px">
+      <div class="item item-icon-left item-icon-right" ng-repeat="item in dataList">
+        <i class="icon ion-ios-information"></i>
+        <span>{{item.name}}</span>
+        <i class="icon ion-ios-arrow-forward"></i>
+      </div>
+    </div>
+
+    <div class="page-cell-title">左侧图标，右侧文字</div>
+    <div class="item home-child-item" ng-repeat="item in dataList">
+      <img ng-src="{{item.icon}}">
+      <span class="child-name">{{item.name}}</span>
+      <span class="child-state">{{item.stateName}}</span>
+    </div>
+
+    <div class="page-cell-title">侧滑</div>
+    <ion-list show-delete="true">
+      <ion-item class="item hm-option-item" ng-repeat="item in dataList">
+        <img ng-src="{{item.icon}}">
+        <span class="hm-item-text">{{item.name}}</span>
+        <ion-option-button class="button-positive">分享</ion-option-button>
+        <ion-option-button class="button-info">编辑</ion-option-button>
+      </ion-item>
+    </ion-list>
+
+    <div class="page-cell-title">气泡列表</div>
+    <div class="hm-bubble-top-right">
+      <div class="list hm-list">
+        <div class="item hm-item-center" ng-repeat="item in bubbleList"
+             ng-class="{true:'hm-item-center-sel'}[item.select]" ng-click="clickItem(item)">
+          {{item.name}}
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

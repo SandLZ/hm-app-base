@@ -1,0 +1,11 @@
+.hm-option-item {
+  .item-content {
+    @extend .hm-flex-v-center;
+    img {
+      width: 26px;
+    }
+    .hm-item-text {
+      padding-left: 20px;
+    }
+  }
+}

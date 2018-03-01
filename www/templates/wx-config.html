@@ -1,0 +1,25 @@
+<ion-view title="SDK配置">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+
+    <div class="page-header">
+      <h1 class="page-title">SDK配置</h1>
+      <p class="page-desc">
+        后台使用AppId与秘钥请求token和ticket,提供一个接口给前台，前台使用配置参数初始化微信配置<br>
+        <a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115">官方文档</a>
+      </p>
+    </div>
+
+    <div class="wx-code" ng-bind-html="wxConfigCtrl.code">
+    </div>
+
+  </ion-content>
+</ion-view>

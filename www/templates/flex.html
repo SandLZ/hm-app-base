@@ -1,0 +1,43 @@
+<ion-view title="Flex">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+    <div class="page-header">
+      <h1 class="page-title">Flex</h1>
+      <p class="page-desc">Flex布局</p>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item">
+        <span class="item-name">flex</span>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item" ng-repeat="item in [1,2]">
+        <span class="item-name">flex</span>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item" ng-repeat="item in [1,2,3]">
+        <span class="item-name">flex</span>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item" ng-repeat="item in [1,2,3,4]">
+        <span class="item-name">flex</span>
+      </div>
+    </div>
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+<ion-view title="文件上传">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+    <div class="page-header">
+      <h1 class="page-title">文件上传</h1>
+      <p class="page-desc">图片上传、视频上传、文件管理器选择上传</p>
+    </div>
+
+    <button class="button button-balanced button-full button-radius" ng-click="showImageUpload()">图片上传</button>
+    <button class="button button-calm button-full button-radius" ng-click="showVideoUpload()">视频上传</button>
+    <button class="button button-dark button-full button-radius" ng-click="showFileManager()">文件管理器上传</button>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,20 @@
+<ion-view title="扫码">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+    <div class="page-header">
+      <h1 class="page-title">扫一扫</h1>
+      <p class="page-desc">支持一维码、二维码；可选择手动、自动处理扫码结果</p>
+    </div>
+
+    <button class="button button-balanced button-full button-radius" ng-click="scanCode()">扫一扫</button>
+
+  </ion-content>
+</ion-view>

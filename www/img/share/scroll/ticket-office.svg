@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>售票处</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+    </defs>
+    <g id="普通" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="售票处">
+            <g id="Group">
+                <g id="Oval-5">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#006DCE" stroke-width="1" cx="25" cy="25" r="24.5"></circle>
+                </g>
+                <g id="售票处" transform="translate(7.500000, 14.500000)">
+                    <path d="M-1.00974196e-28,10.0116013 L-1.00974196e-28,6.02777778 L7.34438049,1.95222193 L17.6127216,7.94855692 L14.1486911,15.1462592 L21.3058315,19.2691557 L14.6001171,15.8526875 L14.182457,15.960998 C14.2677748,15.3596326 14.0607922,14.6118117 13.6111111,13.8640051 L13.6111111,13.4166667 L13.3127017,13.4166667 C13.0524911,13.0622551 12.7391652,12.7145285 12.3781303,12.3894512 C10.7421204,10.9163813 8.7459783,10.466215 7.91962203,11.3839766 C7.59188026,11.7479707 7.49736891,12.2724723 7.60470401,12.8648074 C8.45345679,13.5461147 8.94444444,14.3526935 8.94444444,15.2172222 C8.94444444,17.6592413 5.02693601,19.6388889 0.194444444,19.6388889 C0.130788689,19.6388889 0.0672916952,19.6385454 0.00396032601,19.6378619 L-1.00974196e-28,19.6388889 L-1.84741111e-13,10.0116013 Z" id="Combined-Shape" fill="#858A8D"></path>
+                    <rect id="Rectangle-15" fill="#858A8D" transform="translate(16.570388, 15.748209) rotate(25.000000) translate(-16.570388, -15.748209) " x="15.2092768" y="11.6648761" width="2.72222222" height="8.16666667" rx="1.36111111"></rect>
+                    <rect id="Rectangle-15-Copy" fill="#858A8D" transform="translate(18.709277, 16.914876) rotate(25.000000) translate(-18.709277, -16.914876) " x="17.3481657" y="12.8315428" width="2.72222222" height="8.16666667" rx="1.36111111"></rect>
+                    <g id="Group-3" transform="translate(25.019215, 9.572454) rotate(50.000000) translate(-25.019215, -9.572454) translate(20.119215, 0.822454)">
+                        <rect id="Rectangle-44" fill="#858A8D" x="0" y="0" width="9.72222222" height="17.5"></rect>
+                        <rect id="Rectangle-44" fill="#FFFFFF" x="0.972222222" y="0.972222222" width="7.77777778" height="15.5555556"></rect>
+                        <circle id="Oval-25" fill="#858A8D" cx="2.23611111" cy="3.30555556" r="1"></circle>
+                        <circle id="Oval-25-Copy" fill="#858A8D" cx="4.08333333" cy="3.30555556" r="1"></circle>
+                        <circle id="Oval-25-Copy-2" fill="#858A8D" cx="5.83333333" cy="3.30555556" r="1"></circle>
+                        <circle id="Oval-25-Copy-3" fill="#858A8D" cx="7.58333333" cy="3.30555556" r="1"></circle>
+                    </g>
+                    <g id="Group-3" transform="translate(21.656542, 10.026202) rotate(28.000000) translate(-21.656542, -10.026202) translate(16.756542, 1.276202)">
+                        <rect id="Rectangle-44" fill="#858A8D" x="0" y="0" width="9.72222222" height="17.5"></rect>
+                        <rect id="Rectangle-44" fill="#FFFFFF" x="0.972222222" y="0.972222222" width="7.77777778" height="15.5555556"></rect>
+                        <circle id="Oval-25" fill="#858A8D" cx="2.23611111" cy="3.30555556" r="1"></circle>
+                        <circle id="Oval-25-Copy" fill="#858A8D" cx="4.08333333" cy="3.30555556" r="1"></circle>
+                        <circle id="Oval-25-Copy-2" fill="#858A8D" cx="5.83333333" cy="3.30555556" r="1"></circle>
+                        <circle id="Oval-25-Copy-3" fill="#858A8D" cx="7.58333333" cy="3.30555556" r="1"></circle>
+                    </g>
+                    <rect id="Rectangle-14" fill="#858A8D" transform="translate(11.070501, 14.114614) rotate(-14.000000) translate(-11.070501, -14.114614) " x="1.3482788" y="12.1701694" width="19.4444444" height="3.88888889" rx="1.94444444"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+.hm-list-item {
+  @extend .hm-flex-v-center-h-space;
+  img {
+    width: 30px;
+  }
+}
+
+.hm-list-item-opened {
+  background: #dddddd;
+}
+
+.hm-list-child-item {
+  @extend .hm-flex-v-center;
+  img {
+    width: 26px;
+  }
+  .child-name {
+    padding-left: 20px;
+  }
+  .child-state {
+    position: absolute;
+    right: 20px;
+  }
+  .child-state-todo {
+    color: #ff3b30;
+  }
+  .child-state-better {
+    color: #e6b500;
+  }
+  .child-state-done {
+    color: #59a07c;
+  }
+}

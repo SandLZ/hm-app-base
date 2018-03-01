@@ -1,0 +1,43 @@
+<ion-view title="Picker">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+    <div class="page-header">
+      <h1 class="page-title">Picker</h1>
+      <p class="page-desc">
+        选择器
+        <a href="http://zhoushengfe.com/iosselect/website/index.html#user-content-demos">官网</a>
+      </p>
+    </div>
+
+    <button class="button button-calm button-full button-radius" ng-click="showYear(dateCtrl.year)">
+      单列选择
+    </button>
+
+    <button class="button button-positive button-full button-radius" ng-click="showYearMonth(dateCtrl.yearMonth)">
+      双列选择
+    </button>
+
+    <button class="button button-balanced button-full button-radius" ng-click="showYearMonthDay(dateCtrl.yearMonthDay)">
+      省、市、县三级联动选择
+    </button>
+
+    <button class="button button-assertive button-full button-radius" ng-click="showWeek(dateCtrl.week)">
+      日期(年月日)选择
+    </button>
+
+    <button class="button button-energized button-full button-radius" ng-click="showDateTime(dateCtrl.dateTime )">
+      日期(年月日-时间)选择
+    </button>
+
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+<ion-view title="保存相册">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+    <div class="page-header">
+      <h1 class="page-title">保存相册</h1>
+      <p class="page-desc">保存本地，网络图片到相册，相册名称在配置中：</p>
+    </div>
+
+    <hm-swiper image-list="imageList"></hm-swiper>
+
+    <button class="button button-full button-balanced button-radius" ng-click="saveToAlbum()">保存上面的照片</button>
+
+  </ion-content>
+</ion-view>

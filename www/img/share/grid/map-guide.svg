@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="63px" viewBox="0 0 50 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>导览</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6.34126355 1.13686838e-13 43.6587364 1.13686838e-13 50 47.6283123 0 47.6283123"></polygon>
+        <ellipse id="path-3" cx="28.75" cy="19.6078431" rx="3.75" ry="3.67647059"></ellipse>
+        <ellipse id="path-4" cx="13.75" cy="32.4754902" rx="3.75" ry="3.67647059"></ellipse>
+        <ellipse id="path-5" cx="36.875" cy="38.6029412" rx="3.75" ry="3.67647059"></ellipse>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="地图导览" transform="translate(-15.000000, -8.000000)">
+            <g id="导览" transform="translate(15.000000, 8.000000)">
+                <g id="线路推荐" transform="translate(0.000000, 14.705882)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F7CF68" xlink:href="#path-1"></use>
+                    <path d="M26.5625,0.306372549 L30.3125,19.3014706" id="Line-4" stroke="#000000" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                    <path d="M30.3125,19.9142157 L14.0625,32.7818627" id="Line-5" stroke="#000000" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                    <path d="M14.0625,32.7818627 L35.9375,38.2965686" id="Line-6" stroke="#000000" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                    <path d="M36.5625,38.2965686 L30.3125,47.4877451" id="Line-7" stroke="#000000" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                    <path d="M4.6875,12.5612745 L29.6875,19.3014706" id="Line-3" stroke="#000000" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+                    <g id="Oval" mask="url(#mask-2)">
+                        <use fill="#F7CF68" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <ellipse stroke="#F97753" stroke-width="3" cx="28.75" cy="19.6078431" rx="2.25" ry="2.17647059"></ellipse>
+                    </g>
+                    <g id="Oval-Copy" mask="url(#mask-2)">
+                        <use fill="#F7CF68" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <ellipse stroke="#F97753" stroke-width="3" cx="13.75" cy="32.4754902" rx="2.25" ry="2.17647059"></ellipse>
+                    </g>
+                    <g id="Oval-Copy-2" mask="url(#mask-2)">
+                        <use fill="#F7CF68" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <ellipse stroke="#F97753" stroke-width="3" cx="36.875" cy="38.6029412" rx="2.25" ry="2.17647059"></ellipse>
+                    </g>
+                </g>
+                <path d="M20,24.4219447 C15.4166667,15.1157839 13.125,9.22186775 13.125,6.74019608 C13.125,3.01768857 16.2030423,0 20,0 C23.7969577,0 26.875,3.01768857 26.875,6.74019608 C26.875,9.22186775 24.5833333,15.1157839 20,24.4219447 Z M20,10.4166667 C22.0710678,10.4166667 23.75,8.77065472 23.75,6.74019608 C23.75,4.70973744 22.0710678,3.06372549 20,3.06372549 C17.9289322,3.06372549 16.25,4.70973744 16.25,6.74019608 C16.25,8.77065472 17.9289322,10.4166667 20,10.4166667 Z" id="Combined-Shape" fill="#FC7755"></path>
+            </g>
+        </g>
+    </g>
+</svg>

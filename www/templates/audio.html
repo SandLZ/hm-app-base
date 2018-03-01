@@ -1,0 +1,27 @@
+<ion-view title="音频">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+
+    <div class="page-header">
+      <h1 class="page-title">音频服务</h1>
+      <p class="page-desc">
+        支持常规音频格式播放<br>
+        另有AudioPlayer服务，详情请参考/share/common/audio-player.ser.js
+      </p>
+    </div>
+    <div>
+      <span>{{audioTips}}</span>
+      <button class="button button-balanced button-full button-radius" style="margin-bottom: 30px" ng-click="nextAudio()">下一首</button>
+      <hm-audio autoPlay="true" audio-url="audioUrl" show-arrow="false"></hm-audio>
+    </div>
+
+  </ion-content>
+</ion-view>

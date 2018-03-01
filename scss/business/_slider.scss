@@ -1,0 +1,18 @@
+.slider-header {
+  padding: 30px;
+}
+.slider-content {
+  padding: 16px;
+  .slider-single {
+    margin-top: 20px;
+  }
+  .vertical-slider {
+    margin-top: 20px;
+    height: 200px;
+    .vertical-content {
+      height: 100%;
+      @extend .hm-flex-v-center-h-space;
+    }
+  }
+}
+

@@ -1,0 +1,44 @@
+.rating {
+  color: #F3F5F8;
+  margin: 0;
+  padding: 0;
+}
+
+ul.rating {
+  display: inline-flex;
+}
+ul.yellow-star {
+  display: inline-flex;
+}
+
+.rating li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yellow-star li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rating .filled {
+  color: #ffffff;
+}
+
+.yellow-star {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.yellow-star .filled {
+  color: #ffb813;
+}
+

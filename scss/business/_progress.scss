@@ -1,0 +1,51 @@
+.hm-progress-line {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.hm-progress-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.hm-progress-semicircle {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  svg {
+    //height: 100% !important;
+  }
+}
+
+.hm-progress-path {
+  position: relative;
+}
+.hm-progress-line-container {
+  margin-left: 5%;
+  width: 90%;
+  background: gray;
+  border-radius: 6px;
+  .hm-progress-line-loader {
+    //background: #f20d49;
+    border-radius: 6px;
+    height: 12px;
+    .percent {
+      line-height: 12px;
+      text-align: center;
+      color: white !important;
+      padding-left: 10px;
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}
+.hm-progress-line-gradient {
+  background: linear-gradient(to left, #33ff00,#33ff33 ,#33ff66,#33cc00,#33cc33,#339933);
+  background: -webkit-linear-gradient(left, #33ff00,#33ff33 ,#33ff66,#33cc00,#33cc33,#339933);
+  background: -moz-linear-gradient(left, #33ff00,#33ff33 ,#33ff66,#33cc00,#33cc33,#339933);
+}
+

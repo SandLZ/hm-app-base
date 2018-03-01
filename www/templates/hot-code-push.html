@@ -1,0 +1,36 @@
+<ion-view title="{{title}}">
+
+  <ion-content class="hm-hot-push-bg" scroll="false">
+    <div class="page-header">
+      <h1 class="page-title">热更新</h1>
+      <p class="page-desc">
+        热更新
+      </p>
+    </div>
+
+    <button class="button button-calm button-full button-radius" ng-click="checkUpdate()">
+      检查更新
+    </button>
+
+    <button class="button button-positive button-full button-radius" ng-click="goHome()">
+      进入首页
+    </button>
+
+    <!--<div class="hm-progress-line-container">-->
+      <!--<div class="hm-progress-line-loader hm-progress-line-gradient" style="width: {{progressCtrl.progress}}%;">-->
+        <!--<p class="percent">{{progressCtrl.progress}}%</p>-->
+      <!--</div>-->
+    <!--</div>-->
+    <div class="hm-hot-push-progress">
+      <progress-arc class="progress-circle" size="174" stroke-width="12" complete="progressCtrl.progress"
+                    counter-clockwise="false" background="#4c8c74" stroke="#2ed296">
+      </progress-arc>
+
+      <span class="progress-tip">{{(progressCtrl.progressTip)}}%</span>
+    </div>
+
+    <button class="button button-assertive button-full" ng-click="startProgress()">开始进度</button>
+
+  </ion-content>
+
+</ion-view>

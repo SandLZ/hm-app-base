@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="106.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="旅游服务" transform="translate(-15.000000, -15.000000)">
+            <g id="Group" transform="translate(15.000000, 15.000000)">
+                <g id="Oval-5">
+                    <use fill="#78C3E5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="旅行社" filter="url(#filter-3)" transform="translate(8.500000, 7.500000)" fill="#E74F52">
+                    <rect id="Combined-Shape" transform="translate(5.201576, 18.965549) rotate(-12.000000) translate(-5.201576, -18.965549) " x="3.59813084" y="2.93109767" width="3.20689023" height="32.0689023" rx="1.60344512"></rect>
+                    <path d="M3.03785698,4.18535728 C9.48010799,-0.451000927 14.0845975,-1.11749831 16.8513255,2.18586514 C19.6180535,5.48922859 25.0843108,6.29263007 33.2500973,4.59606958 C26.0397749,12.5088162 21.0044015,15.2199232 18.1439771,12.7293906 C15.2835528,10.2388579 11.1350721,11.7893237 5.69853505,17.380788 L3.03785698,4.18535728 Z" id="Path-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

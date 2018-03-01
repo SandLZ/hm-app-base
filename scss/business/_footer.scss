@@ -1,0 +1,22 @@
+@import "../base/hm-base";
+.hm-footer-desc {
+  padding: 50px;
+}
+.hm-footer {
+  @extend .hm-flex-vh-center;
+  font-size: 14px;
+}
+.hm-footer-abs {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  background: #f8f8f8;
+  font-size: 14px;color:#888888;
+}
+

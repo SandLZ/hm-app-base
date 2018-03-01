@@ -1,0 +1,113 @@
+/*
+
+ionic 样式引入(根据项目实际情况 引入需要的样式文件)
+
+_variables.scss ionic变量定义 可修改
+
+*/
+
+// 字体
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Ionic 部分样式
+
+@import
+  // ion-icons
+"../www/lib/ionic/scss/ionicons/ionicons.scss",
+
+  // 变量(颜色等)
+"../www/lib/ionic/scss/mixins",
+"../www/lib/ionic/scss/variables",
+
+  // 基础
+"../www/lib/ionic/scss/reset",
+"../www/lib/ionic/scss/scaffolding",
+"../www/lib/ionic/scss/type",
+
+  // 组件
+
+  "../www/lib/ionic/scss/action-sheet",
+  //"../www/lib/ionic/scss/backdrop",
+  "../www/lib/ionic/scss/bar",
+  "../www/lib/ionic/scss/tabs",
+"../www/lib/ionic/scss/menu",
+  //"modal",
+"../www/lib/ionic/scss/popover",
+"../www/lib/ionic/scss/popup",
+"../www/lib/ionic/scss/loading",
+  "../www/lib/ionic/scss/items",
+  "../www/lib/ionic/scss/list",
+  //"../www/lib/ionic/scss/badge",
+  //"../www/lib/ionic/scss/slide-box",
+  //"../www/lib/ionic/scss/slides",
+"../www/lib/ionic/scss/refresher",
+"../www/lib/ionic/scss/spinner",
+
+  // Forms
+"../www/lib/ionic/scss/form",
+  //"../www/lib/ionic/scss/checkbox",
+  //"../www/lib/ionic/scss/toggle",
+  //"../www/lib/ionic/scss/radio",
+"../www/lib/ionic/scss/range",
+"../www/lib/ionic/scss/select",
+  //"../www/lib/ionic/scss/progress",
+
+  // Buttons
+"../www/lib/ionic/scss/button",
+"../www/lib/ionic/scss/button-bar",
+
+
+  // Util
+"../www/lib/ionic/scss/grid",
+"../www/lib/ionic/scss/util",
+"../www/lib/ionic/scss/platform",
+
+  // Animations
+"../www/lib/ionic/scss/animations",
+"../www/lib/ionic/scss/transitions";
+
+// 基础样式
+@import
+"base/hm-base",
+"base/hm-button",
+"base/hm-variables",
+"base/hm-function",
+"base/hm-list";
+
+// 平台样式适配
+@import
+"base/hm-platform-ios",
+"base/hm-platform-android",
+"base/hm-platform-browser";
+
+// 组件
+@import
+"share/hm-slider",
+"share/hm-audio",
+"share/hm-func-bar",
+"share/hm-grid",
+"share/hm-gallery",
+"share/hm-item",
+"share/hm-item-info",
+"share/hm-popup",
+"share/hm-scroll-bar",
+"share/hm-scroll-item",
+"share/hm-search",
+"share/hm-star",
+"share/hm-list",
+"share/hm-swiper";
+
+
+// 业务
+@import "business/about",
+"business/home",
+"business/slider",
+"business/button",
+"business/footer",
+"business/progress",
+"business/lists",
+"business/hot-push",
+"business/wx",
+"business/flex",
+"business/scroll";
+

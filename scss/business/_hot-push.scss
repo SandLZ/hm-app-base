@@ -1,0 +1,30 @@
+.hm-hot-push-bg {
+  background: url("../img/splash/Default-736h.png") center no-repeat;
+  background-size: cover;
+}
+
+.hm-hot-push-progress {
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.hm-hot-push-progress .progress-circle {
+  width: 100%;
+  text-align: center
+}
+
+.hm-hot-push-progress .progress-tip {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-50%);
+  font-size: 40px;
+  color: #515151;
+}
+

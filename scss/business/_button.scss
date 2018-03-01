@@ -1,0 +1,10 @@
+@import "../base/hm-variables";
+@import "../base/hm-base";
+
+.button-radius {
+  border-radius: $hm-button-border-radius;
+}
+
+.button-more {
+  @extend .hm-flex-v-center-h-around;
+}

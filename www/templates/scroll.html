@@ -1,0 +1,36 @@
+<ion-view title="Scroll">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content scroll="false">
+    <div class="page-header" style="padding-top: 80px">
+      <h1 class="page-title">Scroll</h1>
+      <p class="page-desc">
+        滚动 <br>
+        1. 滚动菜单(水平) <br>
+        2. 滚动菜单(垂直) <br>
+      </p>
+    </div>
+    <hm-scroll-bar scroll-data="scrollData"></hm-scroll-bar>
+
+    <div class="hm-scroll-left">
+      <hm-scroll-item  menu-data="verticalScrollDataLeft"
+                      on-select-menu="onLayerMenuChange(data)">
+      </hm-scroll-item>
+    </div>
+    <div class="hm-scroll-right">
+      <hm-scroll-item menu-data="verticalScrollDataRight"
+                      on-select-menu="onLayerMenuChangeRight(data)">
+      </hm-scroll-item>
+    </div>
+
+
+
+  </ion-content>
+</ion-view>

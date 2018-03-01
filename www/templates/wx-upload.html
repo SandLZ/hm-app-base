@@ -1,0 +1,20 @@
+<ion-view title="上传">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+    <div class="page-header">
+      <h1 class="page-title">照片上传</h1>
+      <p class="page-desc">照片上传,将上传成功后的id通过接口告知后台，后台下载微信服务器上的图片，存储在自己的服务器上.</p>
+    </div>
+
+    <button class="button button-full button-balanced button-radius" ng-click="chooseImage()">选择照片</button>
+    <button class="button button-full button-balanced button-radius" ng-click="uploadImage()">上传照片</button>
+  </ion-content>
+</ion-view>

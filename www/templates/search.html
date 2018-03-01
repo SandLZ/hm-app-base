@@ -1,0 +1,36 @@
+<ion-view title="{{title}}">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+    <div class="page-header">
+      <h1 class="page-title">搜索</h1>
+      <p class="page-desc">搜索框 </p>
+    </div>
+    <div style="margin-top: 20px;padding: 0 20px">
+      <hm-search search-key="searchOption.key" holder="searchOption.holder"
+                 on-search="onSearch($event)" on-key-change="onKeyChange($event)">
+      </hm-search>
+    </div>
+
+    <div style="margin-top: 20px;padding: 0 20px">
+      <hm-search search-key="searchOption.key" holder="searchOption.holder" search-icon="searchOption.icon"
+                 on-search="onSearch($event)" on-key-change="onKeyChange($event)">
+      </hm-search>
+    </div>
+
+    <div style="margin-top: 20px;padding: 0 60px">
+      <hm-search search-key="searchOption.key" holder="searchOption.holder"
+                 on-search="onSearch($event)" on-key-change="onKeyChange($event)">
+      </hm-search>
+    </div>
+
+
+  </ion-content>
+</ion-view>

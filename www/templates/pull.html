@@ -1,0 +1,33 @@
+<ion-view title="{{title}}">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content>
+    <ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+
+    <div class="page-header">
+      <h1 class="page-title">Pull</h1>
+      <p class="page-desc">下拉刷新、上拉加载更多</p>
+    </div>
+
+    <ion-list>
+      <ion-item ng-repeat="item in dataList">
+        <span>{{item}}</span>
+      </ion-item>
+    </ion-list>
+
+    <!-- 上拉 -->
+    <ion-infinite-scroll
+      immediate-check="false"
+      ng-if="moreDataCanBeLoad()"
+      on-infinite="loadMoreEvent()"
+      distance="1%">
+    </ion-infinite-scroll>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,346 @@
+$browser-default-font-size: 16px !default;
+$browser-default-font-size-num: 16;
+
+.bar.bar-energized {
+  border-color: #1baaeb;
+  background-color: #1baaeb;
+  background-image: linear-gradient(0deg, #1baaeb, #1baaeb 50%, transparent 50%);
+  color: #fff;
+}
+
+ion-content {
+  //background: url(../img/other/bg.png) center center fixed #f8f8f8;
+  background: center center fixed #f8f8f8;
+  //background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  z-index: 1;
+}
+
+.page-header {
+  padding: 40px 40px 30px 40px;
+  .page-title {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 20px;
+  }
+  .page-desc {
+    margin-top: 5px;
+    color: #888;
+    text-align: left;
+    font-size: 14px;
+  }
+}
+
+.page-cell-title {
+  margin-top: .77em;
+  margin-bottom: .3em;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #999999;
+  font-size: 14px;
+}
+
+.page-article {
+  padding: 20px 15px;
+  font-size: 15px;
+}
+
+.page-article h1 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: .9em;
+}
+
+.page-article h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: .4em;
+}
+
+.page-article h3 {
+  font-weight: 400;
+  color: #888;
+  font-size: 15px;
+  margin-bottom: .34em;
+}
+
+.page-article p {
+  margin: 0 0 .8em;
+}
+
+.page-article * {
+  max-width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* 分割样式 */
+.page-division {
+  padding-top: 8px;
+  height: 21px;
+  width: 100%;
+  text-align: center;
+  line-height: 21px;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  white-space: nowrap;
+  border-spacing: 0px;
+  box-sizing: border-box;
+  display: table;
+}
+
+.page-division:before,
+.page-division:after {
+  content: '';
+  display: table-cell;
+  width: 50%;
+  background: -webkit-linear-gradient(#dcdcdc, #dcdcdc) repeat-x left center;
+  background: linear-gradient(#dcdcdc, #dcdcdc) repeat-x left center;
+  background-size: 1px 1px;
+}
+
+.page-division .division-name {
+  background: white;
+  padding: 2px 17px 2px 17px;
+  text-align: center;
+  height: 21px;
+  color: #4a4a4a;
+  font-size: 10px;
+  border: solid 1px #dcdcdc;
+  border-radius: 10px;
+}
+
+.container, .page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.container {
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body,
+html {
+  height: 100%;
+  font-size: $browser-default-font-size;
+}
+
+div {
+  display: block;
+}
+
+ul,
+li,
+ol {
+  list-style: none
+}
+
+/*图片下方留白  */
+
+img {
+  width: 100%;
+}
+
+.fixed {
+  z-index: 99;
+  display: inline-block;
+  width: 30%;
+  border: 1px solid #333;
+}
+
+.hide {
+  display: none;
+}
+
+.slider-track-high {
+  float: right;
+  background-color: #7a7a7a;
+  height: 10px;
+  margin-top: -10px;
+  border-radius: 50px;
+}
+
+.tooltip-inner {
+  visibility: hidden;
+}
+
+.tooltip-main {
+  visibility: hidden;
+}
+
+.clearfix {
+
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.hm-scrollbar-page {
+  height: 100%;
+  overflow: hidden;
+  .hm-scrollbar-page-panel {
+    margin-top: 50px;
+    padding-bottom: 0px;
+    height: calc(100vh - 50px);
+    height: -moz-calc(100vh - 50px);
+    height: -webkit-calc(100vh - 50px);
+    overflow: auto;
+    .hm-scrollbar-page-infinite {
+      box-sizing: border-box;
+      height: 100%;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+
+// 垂直居中 水平居左
+.hm-flex-v-center-h-start {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+
+// 垂直居中
+.hm-flex-v-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+// 水平居中
+.hm-flex-h-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-align-content: center;
+}
+
+// 垂直居中 水平居右
+.hm-flex-v-center-h-end {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+
+// 垂直居中 水平居中
+.hm-flex-vh-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+// 垂直居中 水平均分
+.hm-flex-v-center-h-space {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+
+// 垂直居中 水平均分
+.hm-flex-v-center-h-around {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+
+// wrap
+.hm-flex-wrap {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+// 高德地图样式
+.amap-copyright {
+  display: none !important;
+  left: 70px;
+  height: 16px;
+  font-size: 11px;
+  opacity: 0;
+}
+
+.amap-logo {
+  left: 0 !important;
+  top: 0 !important;
+  height: 17px;
+  margin: 0 1px;
+}
+
+.amap-geolocation-con .amap-geo, .amap-touch-toolbar .amap-geo {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+// 高德地图标注容器自定义样式
+.my-marker {
+  width: 120px;
+  text-align: center;
+}
+
+center {
+  text-align: inherit;
+}
+
+.hm-scroll-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  .hm-scroll {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+
+.scroll {
+  //height: 100% !important;
+}

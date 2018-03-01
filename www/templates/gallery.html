@@ -1,0 +1,18 @@
+<ion-view title="{{title}}">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content scroll="false">
+    <hm-gallery image-list="imageList" loop="true" pagination="true"
+                index-data="initIndex" func-list="funcList"
+                click-func-item="clickFuncItem($event)"
+                slide-change-end="slideChangeEnd($event)"></hm-gallery>
+
+  </ion-content>
+</ion-view>

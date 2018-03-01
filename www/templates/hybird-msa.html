@@ -1,0 +1,35 @@
+<ion-view title="HyBird-MSA">
+  <ion-nav-bar class="bar-energized nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button rectangle-round-left" ng-click="goBack()">
+        <div class="navi-back">
+        </div>
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+
+    <div class="page-header">
+      <h1 class="page-title">HyBird-MSA</h1>
+      <p class="page-desc">
+        基于网页的移动统计分析
+      </p>
+    </div>
+
+    <div class="page-division">
+      <span class="division-name">基本</span>
+    </div>
+
+    <button class="button button-balanced button-full button-radius" ng-click="getLocationBrowser()">浏览器中</button>
+    <button class="button button-calm button-full button-radius" ng-click="getLocationApp()">App中</button>
+
+    <div class="page-division">
+      <span class="division-name">高级</span>
+    </div>
+
+    <button class="button button-dark button-full button-radius" ng-click="watchLocation()">持续定位</button>
+
+
+  </ion-content>
+</ion-view>

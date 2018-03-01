@@ -1,0 +1,98 @@
+/*
+  按钮
+ */
+
+.hm-btn-green {
+  background: #3dd69d !important;
+  border-radius: 3px !important;
+  color: white;
+  font-size: 14px;
+  height: 30px;
+}
+
+.hm-btn-gray {
+  border-radius: 3px !important;
+  background: #ffffff !important;
+  border: 1px solid #979797 !important;
+  color: #4e4e4e;
+  font-size: 14px;
+  height: 30px;
+}
+
+
+.hm-btn-blue {
+  border-radius: 3px !important;
+  background: #2db4ee !important;
+  color: white;
+  font-size: 14px;
+  height: 30px;
+}
+/* 导航栏 */
+/* 弧边矩形 */
+.rectangle-round-left {
+  border-radius: 0px 18px 18px 0px;
+  width: 45px;
+  height: 36px;
+  left: -4px;
+  top: -1px;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 0px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.rectangle-round-left .navi-back {
+  width: 16px;
+  height: 17px;
+  border: 0px;
+  background: url('../img/other/navi-back.svg') left top no-repeat;
+  background-size: 100% 100%;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.rectangle-round-left:active {
+  box-shadow: none;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.rectangle-round-right {
+  width: 45px;
+  height: 36px;
+  right: -4px;
+  top: -1px;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: none;
+  border-radius: 18px 0 0 18px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+
+.rectangle-round-right .change {
+  width: 16px;
+  height: 17px;
+  border: 0px;
+  background: url('../img/other/paixu.svg') left top no-repeat;
+  background-size: 100% 100%;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.rectangle-round-right-tongji {
+  top: 2px;
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  right: 15px;
+  background: url('../img/other/tongji.svg') left top no-repeat;
+  background-size: 100% 100%;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
